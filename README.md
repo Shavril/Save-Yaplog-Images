@@ -1,6 +1,8 @@
 # Save-Yaplog-Images
 Python scripts to scrape Yaplog.jp blogs for images before they turn off in January 2020. 
 
+WARNING! Using the script may get your IP blacklisted by Yaplog. Use VPN !  
+
 This script for Python 3 downloads full images
 from entered Yaplog.jp blog, for blogs where /image/       
 folder is available. The images will be saved              
