@@ -27,3 +27,10 @@ Please set up the script's variables before you run the script.
 The script will open itself its own browser and start its work.
 It is using selenium browser, and will make slow but steady progress.               
                                                                 
+<b>Common problems</b>
+
+I closed the script before it finished. What now?
+Look at the index of last saved image and insert the number into script as postMin variable. E.g. for image1331-18-big.jpg, write postMin = 1331. The script will continue from this point onward.
+
+The script immediately ended with a message: "Session not created: This version of ChromeDriver only supports Chrome version.."!
+Check what is your version of Chrome and get the correct ChromeDriver from https://chromedriver.chromium.org/downloads and put it into C:/Windows (if you're running Windows).
